@@ -446,6 +446,7 @@ a.button:active {
 	text-decoration: none;
 }
 .button.delete,
+.button.edit,
 .button.download {
 	background-repeat: no-repeat;
 	background-position: center;
@@ -453,6 +454,9 @@ a.button:active {
 }
 .button.delete {
 	background-image: url('../images/delete.svg');
+}
+.button.edit {
+	background-image: url('../images/edit.svg');
 }
 .button.download {
 	background-image: url('../images/download.svg');

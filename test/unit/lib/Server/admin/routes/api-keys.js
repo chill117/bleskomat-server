@@ -69,7 +69,7 @@ describe('admin', function() {
 			});
 		});
 
-		it('GET /admin/api-keys/add', function() {
+		it('GET /admin/api-keys/create', function() {
 			const apiKeysBefore = JSON.parse(JSON.stringify(config.lnurl.auth.apiKeys));
 			return this.helpers.request('get', {
 				url: `${config.lnurl.url}/admin/api-keys/add`,
